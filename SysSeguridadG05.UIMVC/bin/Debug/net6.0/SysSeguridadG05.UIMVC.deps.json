@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SysSeguridadG05.UIMVC/1.0.0": {
+        "dependencies": {
+          "SysSeguridadG05.BL": "1.0.0",
+          "SysSeguridadG05.EN": "1.0.0"
+        },
+        "runtime": {
+          "SysSeguridadG05.UIMVC.dll": {}
+        }
+      },
+      "SysSeguridadG05.BL/1.0.0": {
+        "dependencies": {
+          "SysSeguridadG05.DAL": "1.0.0",
+          "SysSeguridadG05.EN": "1.0.0"
+        },
+        "runtime": {
+          "SysSeguridadG05.BL.dll": {}
+        }
+      },
+      "SysSeguridadG05.DAL/1.0.0": {
+        "dependencies": {
+          "SysSeguridadG05.EN": "1.0.0"
+        },
+        "runtime": {
+          "SysSeguridadG05.DAL.dll": {}
+        }
+      },
+      "SysSeguridadG05.EN/1.0.0": {
+        "runtime": {
+          "SysSeguridadG05.EN.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SysSeguridadG05.UIMVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SysSeguridadG05.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SysSeguridadG05.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SysSeguridadG05.EN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
