@@ -13,3 +13,4 @@ C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\bin\Debug\net6
 C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\bin\Debug\net6.0\SysSeguridadG05.EN.pdb
 C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.csproj.AssemblyReference.cache
 C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.csproj.CopyComplete
+C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.DAL\obj\Debug\net6.0\SysSeguridadG05.DAL.sourcelink.json

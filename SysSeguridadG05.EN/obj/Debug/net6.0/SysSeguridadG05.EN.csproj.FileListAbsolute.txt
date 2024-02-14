@@ -9,3 +9,4 @@ C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.EN\obj\Debug\net6.
 C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.EN\obj\Debug\net6.0\refint\SysSeguridadG05.EN.dll
 C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.EN\obj\Debug\net6.0\SysSeguridadG05.EN.pdb
 C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.EN\obj\Debug\net6.0\ref\SysSeguridadG05.EN.dll
+C:\Users\ESCOBAR\source\repos\SysSeguridadG05\SysSeguridadG05.EN\obj\Debug\net6.0\SysSeguridadG05.EN.sourcelink.json

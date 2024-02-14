@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SysSeguridadG05.UIMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c24b3f22f6d0c9c831ddf85b25ede2d14d6b1c56")]
 [assembly: System.Reflection.AssemblyProductAttribute("SysSeguridadG05.UIMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SysSeguridadG05.UIMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

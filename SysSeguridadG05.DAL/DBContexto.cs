@@ -15,7 +15,7 @@ namespace SysSeguridadG05.DAL
         public DbSet<Usuario> Usuario { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"");
+            optionsBuilder.UseSqlServer(@"Data Source=DEV-PC1;Initial Catalog=DBSeguridadG05;Integrated Security=True;Trust Server Certificate=True");
         }
     }
 }
