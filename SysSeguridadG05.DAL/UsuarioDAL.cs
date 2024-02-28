@@ -120,7 +120,7 @@ namespace SysSeguridadG05.DAL
             return result;
         }
 
-        public static async Task<Usuario> ObtenrPorIdAsync(Usuario pUsuario)
+        public static async Task<Usuario> ObtenerPorIdAsync(Usuario pUsuario)
         {
             var usuario = new Usuario();
             try
