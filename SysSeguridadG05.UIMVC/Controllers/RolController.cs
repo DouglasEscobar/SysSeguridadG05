@@ -23,5 +23,37 @@ namespace SysSeguridadG05.UIMVC.Controllers
             ViewBag.Top = pRol.Top_Aux;
             return View(roles);
         }
+
+        public async Task<IActionResult> Details(int pId)
+        {
+            var rol = await rolBL.ObtenerPorIdAsync(new Rol { Id = pId });
+            return View(rol);
+        }
+
+        public IActionResult Create(int pId) 
+        {
+            ViewBag.Error = "";
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Rol pRol)
+        {
+            try
+            {
+                int result = await rolBL.CrearAsync(pRol);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+
+                ViewBag.Error = ex.Message;
+                return View(pRol);
+            }
+        }
+
+
+
     }
 }
