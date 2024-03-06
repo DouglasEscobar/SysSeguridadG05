@@ -53,7 +53,50 @@ namespace SysSeguridadG05.UIMVC.Controllers
             }
         }
 
+        public async Task<IActionResult> Edit(Rol pRol)
+        {
+            var rol = await rolBL.ObtenerPorIdAsync(pRol);
+            ViewBag.Error = "";
+            return View(rol);
+        }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int pId, Rol pRol)
+        {
+            try
+            {
+                int result = await rolBL.ModificarAsync(pRol);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+                return View(pRol);
+            }
+        }
+
+        public async Task<IActionResult> Delete(Rol pRol)
+        {
+            ViewBag.Error = "";
+            var rol = await rolBL.ObtenerPorIdAsync(pRol);
+            return View(rol);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id, Rol pRol)
+        {
+            try
+            {
+                int result = await rolBL.DeleteAsync(pRol);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+                return View(pRol);
+            }
+        }
 
     }
 }

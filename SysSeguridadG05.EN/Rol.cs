@@ -13,7 +13,7 @@ namespace SysSeguridadG05.EN
     {
         [Key]
         public int  Id { get; set; }
-        [Required(ErrorMessage ="Nombre es oblugatorio")]
+        [Required(ErrorMessage ="Nombre es obligatorio")]
         [StringLength(20, ErrorMessage="Maximo 20 Caracteres")]
         public string Nombre { get; set; }
         [NotMapped]

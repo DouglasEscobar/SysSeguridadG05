@@ -83,7 +83,7 @@ namespace SysSeguridadG05.DAL
 
             if (!string.IsNullOrWhiteSpace(pRol.Nombre))
                 pQuery = pQuery.Where(s => s.Nombre.Contains(pRol.Nombre));
-            pQuery = pQuery.OrderBy(s => s.Id).AsQueryable();
+            pQuery = pQuery.OrderByDescending(s => s.Id).AsQueryable();
 
             if (pRol.Top_Aux > 0)
                 pQuery = pQuery.Take(pRol.Top_Aux).AsQueryable();
